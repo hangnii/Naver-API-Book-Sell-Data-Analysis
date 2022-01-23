@@ -126,29 +126,34 @@
   - Visual Basic은 반대로 가격대는 가장 저렴한데 페이지 수는 많은 편
   - 앞선 그래프들과 달리 회귀선이 하향세
 
+<br/>
+#### 4. Box Plot
 
-![image](https://user-images.githubusercontent.com/92846399/150677476-5f4e48ad-40bc-4885-b28e-2493cc2fdd24.png)
+- ![image](https://user-images.githubusercontent.com/92846399/150677476-5f4e48ad-40bc-4885-b28e-2493cc2fdd24.png)
   - 가격, 페이지 수 모두 **한국 > 해외**
-![image](https://user-images.githubusercontent.com/92846399/150675091-a1344d59-9ee0-49b9-aa14-cdf00045b6a0.png)
-  - 8만원을 넘는 책 5권
-    - SQL / 16만원 / 1000p
-    - (1998) MS사 -> 삼각형
-    - C/약12만원/1948p - (2013) 전 4권 세트
-    - Java / 약11만원 / 2456p - (2015) 전 3권 세트
-    - 파이썬/약10만원/245p - (2021) 드론 포함 가격
-    - C/약9만원/1996p
-    - (2014) 전 2권 세트
-![image](https://user-images.githubusercontent.com/92846399/150675075-a51a0d28-6687-4108-ae4b-919ac31ea317.png)
+<br/>
 
+- ![image](https://user-images.githubusercontent.com/92846399/150675091-a1344d59-9ee0-49b9-aa14-cdf00045b6a0.png)
+    - 8만원을 넘는 책 5권
+      - SQL / 16만원 / 1000p
+      - (1998) MS사 -> 삼각형
+      - C/약12만원/1948p - (2013) 전 4권 세트
+      - Java / 약11만원 / 2456p - (2015) 전 3권 세트
+      - 파이썬/약10만원/245p - (2021) 드론 포함 가격
+      - C/약9만원/1996p
+      - (2014) 전 2권 세트
 
-![image](https://user-images.githubusercontent.com/92846399/150675060-8ffbb5b6-c481-4eb9-81f9-50b6edcfabb9.png)
+- ![image](https://user-images.githubusercontent.com/92846399/150675075-a51a0d28-6687-4108-ae4b-919ac31ea317.png)
 
-- 파이썬, 자바, 자바스크립트는 해외 vs 국내 가격대가 크지 않은데 반해 C, C++, PHP, R은 꽤 차이가 난다.
-- SQL은 해외서적의 가격 분포가 넓고, 페이지 수는 가장 낮은 편이다.
-- 파이썬의 경우 해외 서적이 국내 서적보다 페이지 수가 더 많은데, 가격은 더 저렴하다.
-- 페이지 수 박스 길이(분포)를 보면, 파이썬과 R은 좁고, C#, 비주얼베이직은 넓다.
+- hue=출판국가
+- ![image](https://user-images.githubusercontent.com/92846399/150675060-8ffbb5b6-c481-4eb9-81f9-50b6edcfabb9.png)
 
-### 결론:
+  - 파이썬, 자바, 자바스크립트는 해외 vs 국내 가격대가 크지 않은데 반해 C, C++, PHP, R은 꽤 차이가 난다.
+  - SQL은 해외서적의 가격 분포가 넓고, 페이지 수는 가장 낮은 편이다.
+  - 파이썬의 경우 해외 서적이 국내 서적보다 페이지 수가 더 많은데, 가격은 더 저렴하다.
+  - 페이지 수 박스 길이(분포)를 보면, 파이썬과 R은 좁고, C#, 비주얼베이직은 넓다.
+
+#### 결론:
 종합적으로 보았을 때,
 프로그래밍 언어 책의 가격을 결정하는 요소로
 책의 페이지 수 뿐만 아니라
