@@ -1,5 +1,5 @@
 # Naver API Book Sell Data Analysis
-- 네이버 책 검색 API를 활용한 데이터 분석 프로젝트
+- TIOBE INDEX 기준, 상위 10개의 프로그래밍 언어 데이터를 수집하여, 네이버 책 검색 API를 활용해 언어별 출판량과 양상을 비교 분석한 EDA 프로젝트
 
 ## 1. TIOBE INDEX 페이지 크롤링
 ![image](https://user-images.githubusercontent.com/92846399/150674878-7fea9877-2c1f-45a5-9588-ba796d7a2f83.png)
